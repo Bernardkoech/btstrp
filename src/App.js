@@ -37,6 +37,7 @@ function App() {
             <Route path="/whatsapp" element={<WhatsAppChat />}></Route>
           </Routes>
         </div>
+        
         <Footer />
 
       </div>
