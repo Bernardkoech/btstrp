@@ -82,3 +82,13 @@ code {
   }
 
 }
+
+/* Add this to your CSS file */
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  font-size: 2em;
+  color:  black; /* Change the color to your preference */
+  text-decoration: none;
+}
