@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaWhatsapp } from 'react-icons/fa'; // Import WhatsApp icon from Font Awesome
+import "./Whatsapp.css"
 
 const WhatsAppChat = () => {
   const phoneNumber = '+254740087715'; // Replace with your phone number

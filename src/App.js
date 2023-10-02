@@ -1,15 +1,15 @@
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/NavBar/Navbar";
-import About from "./Pages/About";
-import Contact from "./Pages/Contact";
-import Projects from "./Pages/Projects";
-import Products from "./Pages/Products";
-import Home from "./Pages/Home";
-import Cards from "./Pages/Cards";
+import About from "./Pages/About/About";
+import Contact from "./Pages/Contact/Contact";
+import Projects from "./Pages/Projects/Projects";
+import Products from "./Pages/Products/Products";
+import Home from "./Pages/Home/Home";
+import Cards from "./Pages/Cards/Cards";
 import useCardData from "./components/UseCardData/UseCardData";
-import ImageDetail from "./Pages/ImageDetail";
-import WhatsAppChat from "./components/WhatsAppChat";
+import ImageDetail from "./Pages/ImageDetail/ImageDetail";
+import WhatsAppChat from "./components/Whatsapp/WhatsAppChat";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
 
 
         <div className="content">
+
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -37,7 +38,7 @@ function App() {
             <Route path="/whatsapp" element={<WhatsAppChat />}></Route>
           </Routes>
         </div>
-        
+
         <Footer />
 
       </div>

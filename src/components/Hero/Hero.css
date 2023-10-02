@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+    .carousel-item img {
+      max-height: 300px; /* Adjust as needed for smaller screens */
+    }
+  }
+
+  @media (min-width: 768px) {
+    .carousel-item img {
+      max-height: 550px; /* Adjust as needed for tablets and larger screens */
+
+    }
+
+  }

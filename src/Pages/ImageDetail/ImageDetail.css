@@ -1,0 +1,22 @@
+/* ImageDetail.css */
+
+.image-detail-container {
+    padding: 40px;
+    text-align: center;
+  }
+
+  .card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .card-text {
+    font-size: 18px;
+    color: #555;
+  }

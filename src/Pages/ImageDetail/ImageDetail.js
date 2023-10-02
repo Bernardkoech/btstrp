@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import "./ImageDetail.css"
 
 const ImageDetail = () => {
   const { id } = useParams();
@@ -35,8 +36,8 @@ const ImageDetail = () => {
             <div className="card-body">
               <h2 className="card-title">Image Details</h2>
               <p className="card-text">{card.description}</p>
-              <button className="btn btn-primary" onClick={handleWhatsAppClick}>
-                Contact via WhatsApp
+              <button className="btn btn-outline-info" onClick={handleWhatsAppClick}>
+                Enquire via WhatsApp
               </button>
             </div>
           </div>

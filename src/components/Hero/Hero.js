@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Hero.css"
 
 const Hero = () => {
   return (
@@ -34,19 +35,20 @@ const Hero = () => {
             style={{ objectFit: 'cover' }}
           />
           <div className="carousel-caption d-md-block">
-            <h5>First slide label</h5>
+            <h1>First slide label</h1>
             <p>Some representative placeholder content for the first slide.</p>
+
           </div>
         </div>
         <div className="carousel-item">
           <img
-            src="https://www.ntu.edu.sg/images/librariesprovider100/cas/news-images/solar-panelsffbb0301-4797-4634-b870-acd01b1d3546.jpg?sfvrsn=826810a5_3"
+            src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/30/cd/d2/nakuru-national-park.jpg?w=1200&h=-1&s=1"
             className="d-block w-100"
             alt="Slide 2"
             style={{ objectFit: 'cover' }}
           />
           <div className="carousel-caption d-md-block">
-            <h5>Second slide label</h5>
+            <h1>Second slide label</h1>
             <p>Some representative placeholder content for the second slide.</p>
           </div>
         </div>
@@ -58,7 +60,7 @@ const Hero = () => {
             style={{ objectFit: 'cover' }}
           />
           <div className="carousel-caption d-md-block">
-            <h5>Third slide label</h5>
+            <h1>Third slide label</h1>
             <p>Some representative placeholder content for the third slide.</p>
           </div>
         </div>

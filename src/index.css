@@ -9,19 +9,6 @@ body {
 
 
 
-.image-container {
-  position: relative;
-  overflow: hidden;
-
-}
-
-.image-container img {
-  transition: transform 0.3s ease-in-out;
-}
-
-.image-container:hover img {
-  transform: scale(1.1);
-}
 
 
 
@@ -30,65 +17,11 @@ code {
     monospace;
 }
 
-.circle-container {
-  width: 150px; /* Adjust to your desired size */
-  height: 150px; /* Adjust to your desired size */
-  border-radius: 50%;
-  overflow: hidden;
-}
-
-.circle-content {
-  width: 120%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* ImageDetail.css */
-
-.image-detail-container {
-  padding: 40px;
-  text-align: center;
-}
-
-.card {
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.card-title {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.card-text {
-  font-size: 18px;
-  color: #555;
-}
 
 
-@media (max-width: 767px) {
-  .carousel-item img {
-    max-height: 300px; /* Adjust as needed for smaller screens */
-  }
-}
 
-@media (min-width: 768px) {
-  .carousel-item img {
-    max-height: 550px; /* Adjust as needed for tablets and larger screens */
 
-  }
 
-}
 
 /* Add this to your CSS file */
-.whatsapp-icon {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  font-size: 2em;
-  color:  #25D366; /* Change the color to your preference */
-  text-decoration: none;
-}
+
