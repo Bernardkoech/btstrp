@@ -11,11 +11,11 @@ const Products = () => {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 mx-auto">
-              <h1 className="fw-light">Ben's Journal</h1>
+              <h1 className="fw-light">Ben's Website</h1>
               <p className="lead text-body-secondary">
                 Welcome to my Journey: A Tale of Life's Adventures
                 <br />
-                Embark on a captivating journey through the tapestry of my life. This website is a collection of experiences that have shaped me, a canvas of memories painted with the vibrant strokes of laughter, growth, and resilience.
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, natus hic? Tenetur, delectus laborum. Tempora perspiciatis natus quasi soluta architecto ut, quae deleniti libero blanditiis facere officiis beatae corrupti iusto!
               </p>
               <div className="d-flex justify-content-center">
                 <Link to="/contacts" className="me-2" style={{ textDecoration: 'none' }}>

@@ -7,7 +7,8 @@ const About = () => {
     <br />
       <div className="row">
         <div className="col-md-6">
-          <h2>About Us</h2>
+        <img src="https://i.pinimg.com/564x/e2/da/2d/e2da2d36f5b2961f009d908b5edbaedc.jpg" className="img-fluid" alt="" />
+
           <p>
             Welcome to our website! We are dedicated to providing quality
             services and products to our customers.
@@ -18,15 +19,13 @@ const About = () => {
             metus faucibus consectetur.
           </p>
           <Link to="/contacts">
-            <button className="btn btn-primary">Contact Us</button>
+            <button className="btn btn-primary ">Contact Us</button>
           </Link>
         </div>
         <div className="col-md-6">
-          <img
-            src="https://via.placeholder.com/400"
-            alt="About Us"
-            className="img-fluid"
-          />
+          <div class="ratio ratio-16x9">
+            <iframe src="https://www.youtube.com/embed/XMwoYeNdvLs?si=Fq5HWt_geHBHqVN-" title="YouTube video" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>

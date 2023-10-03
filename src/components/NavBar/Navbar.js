@@ -61,17 +61,7 @@ const Navbar = () => {
                 </Link>
               </>
             </li>
-            <li className="nav-item">
-              <>
-                <Link
-                  to="/projects"
-                  style={{ textDecoration: 'none' }}
-                  onClick={() => closeNavbar()}
-                >
-                  <span className='nav-link'>Projects</span>
-                </Link>
-              </>
-            </li>
+            
           </ul>
           <div className="navbar-nav ">
 
