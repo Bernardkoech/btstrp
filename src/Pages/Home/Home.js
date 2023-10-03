@@ -5,6 +5,7 @@ import useCardData from '../../components/UseCardData/UseCardData'
 import Hero from '../../components/Hero/Hero'
 import WhatsAppChat from '../../components/Whatsapp/WhatsAppChat'
 import About from '../About/About'
+import Banner from "../../components/Banner/Banner"
 
 const Home = () => {
 
@@ -12,6 +13,7 @@ const Home = () => {
 
   return (
     <div>
+    <Banner />
        <WhatsAppChat />
        <Hero />
        <hr />
