@@ -2,7 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/NavBar/Navbar";
 import About from "./Pages/About/About";
-import Contact from "./Pages/Contact/Contact";
+import Contacts from "./Pages/Contacts/Contacts";
 import Projects from "./Pages/Projects/Projects";
 import Products from "./Pages/Products/Products";
 import Home from "./Pages/Home/Home";
@@ -27,7 +27,7 @@ function App() {
           <Routes>
             <Route path="/" exact element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/contacts" element={<Contact />} />
+            <Route path="/contacts" element={<Contacts />} />
             <Route
               path="/cards"
               element={cards && <Cards cards={cards} />} // Pass the cards as a prop

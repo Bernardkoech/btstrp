@@ -6,7 +6,7 @@ const Products = () => {
 
   return (
     <div>
-    
+
       <section className="py-5 text-center">
         <div className="container">
           <div className="row">
@@ -18,10 +18,10 @@ const Products = () => {
                 Embark on a captivating journey through the tapestry of my life. This website is a collection of experiences that have shaped me, a canvas of memories painted with the vibrant strokes of laughter, growth, and resilience.
               </p>
               <div className="d-flex justify-content-center">
-                <Link to="/contact" className="me-2" style={{ textDecoration: 'none' }}>
+                <Link to="/contacts" className="me-2" style={{ textDecoration: 'none' }}>
                   <button className="btn btn-primary">Main call to action</button>
                 </Link>
-                <Link to="/contact" style={{ textDecoration: 'none' }}>
+                <Link to="/contacts" style={{ textDecoration: 'none' }}>
                   <button className="btn btn-outline-secondary">Secondary action</button>
                 </Link>
               </div>

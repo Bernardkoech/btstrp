@@ -18,15 +18,7 @@ const Footer = () => {
             <Link to="/projects">Projects</Link>
             <Link to="/contacts">Contact</Link>
           </div>
-          <div className="social-icons">
-            <a href="https://linkedin.com/in/bernard-koech032" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-linkedin"></i>
-            </a>
-            <a href="https://github.com/Bernardkoech" target="_blank" rel="noopener noreferrer">
-              <i className="fab fa-github"></i>
-            </a>
-            {/* Add more social media links/icons as needed */}
-          </div>
+         
         </div>
         <p className="footer-text">© {new Date().getFullYear()} Bernard Koech. All rights reserved.</p>
       </div>
