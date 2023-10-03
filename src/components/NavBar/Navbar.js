@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow-sm">
+    <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light shadow-sm">
       <div className="container-fluid">
         <Link to="/" style={{ textDecoration: 'none' }}>
           <div className='navbar-brand'>
