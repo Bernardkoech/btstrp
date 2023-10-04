@@ -6,6 +6,7 @@ import Hero from '../../components/Hero/Hero'
 import WhatsAppChat from '../../components/Whatsapp/WhatsAppChat'
 import About from '../About/About'
 import Banner from "../../components/Banner/Banner"
+import Pricing from '../../components/Pricing/Pricing'
 
 const Home = () => {
 
@@ -20,6 +21,8 @@ const Home = () => {
        <Products />
        <hr />
        <About />
+       <hr />
+       <Pricing />
        <hr />
        {cards && <Cards cards={cards.filter((card) => card.homepage === true)} />}
     </div>

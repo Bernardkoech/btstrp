@@ -5,7 +5,7 @@ const Products = () => {
 
 
   return (
-    <div>
+    <div className='container'>
 
       <section className="py-5 text-center">
         <div className="container">
