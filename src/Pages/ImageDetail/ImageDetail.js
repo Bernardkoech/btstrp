@@ -37,7 +37,7 @@ const ImageDetail = () => {
             <div className="card-body">
               <h2 className="card-title">Image Details</h2>
               <p className="card-text">{card.description}</p>
-              <button className="btn btn-outline-success" onClick={handleWhatsAppClick}>
+              <button className="btn btn-success" onClick={handleWhatsAppClick}>
                 Enquire via WhatsApp
               </button>
 
