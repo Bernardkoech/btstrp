@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div>
     <Banner />
-       <WhatsAppChat />
+
        <Hero />
        <hr />
        <Products />
@@ -25,6 +25,7 @@ const Home = () => {
        <Pricing />
        <hr />
        {cards && <Cards cards={cards.filter((card) => card.homepage === true)} />}
+       <WhatsAppChat />
     </div>
   )
 }
