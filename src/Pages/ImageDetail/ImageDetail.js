@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import "./ImageDetail.css"
-import { FaWhatsapp } from 'react-icons/fa';
+
 
 const ImageDetail = () => {
   const { id } = useParams();
@@ -36,7 +36,6 @@ const ImageDetail = () => {
           <div className="card">
             <div className="card-body">
               <h2 className="card-title">Image Details</h2>
-              <FaWhatsapp className="whatsapp-icon" />
               <p className="card-text">{card.description}</p>
               <button className="btn btn-outline-success" onClick={handleWhatsAppClick}>
                 Enquire via WhatsApp
